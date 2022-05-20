@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Handlee&family=Smokum&display=swap');
+
+@import url('https://fonts.googleapis.com/css2? family= Handlee & display=swap');
+
+:root {
+    --fonte1: Verdana, Geneva, Tahoma, sans-serif;
+    --fonte2: 'Handlee', 'cursive';
+    --fonte3: 'Smokum', 'cursive';
+}
+
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+    
+html, body {
+    min-height: 100vh;
+    font-family: var(--fonte1);
+    
+}
+
+header {
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+
+header > h1 {
+    padding-top: 50px;
+    font-variant: small-caps;
+    font-family: var(--fonte3);
+    font-size: 9vw;
+}
+
+header > p {
+    padding-bottom: 50px;
+    font-size: 17px;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+    font-weight: bolder;
+}
+a:hover {
+    text-decoration: underline;
+}
+
+section {
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+    line-height: 2em;
+    font-size: 3.5vw;
+    font-family: var(--fonte2)
+}
+
+section.normal {
+    background-color: white;
+    color: rgb(0, 0, 0);
+}
+
+section.imagem {
+    background-color: rgb(37, 37, 37);
+    color: white;
+    box-shadow: inset 6px 6px 13px 0px rgba(0, 0, 0, 0.4);
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+section.imagem >p {
+    display: inline-block;
+    padding: 5px;
+    background-color: rgba(0, 0, 0, 0.657);
+    margin: 15px;
+    text-shadow: 1px 2px 0px black;
+}
+
+section#img01 {
+      background-image: url(../imagens/background003.jpg);
+      background-position: center center;
+}
+
+section#img02 {
+      background-image: url(../imagens/background002.jpg);
+      background-position: right center;
+}
+
+footer {
+    background-color: black;
+    text-align: center;
+    color: white;
+    padding: 10px;
+}

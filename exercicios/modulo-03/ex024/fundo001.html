@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>teste de imagem de fundo</title>
+    <style>
+
+        body{
+            background-image:url("imagens/imagem-nova.png")
+        }
+        div.quadrado {
+            display: inline-block;
+            border: 2px solid black;
+            border-radius: 10px;
+            background-color: rgba(169, 169, 169, 0.646);
+            width: 300px;
+            height: 300px;
+        }
+
+        div#f1 {
+         background-color: blue;
+        }
+
+        div#f2 {
+            background-image: linear-gradient(to bottom, rgb(0, 1, 0), rgb(55, 56, 55));
+        }
+
+        div#f3 {
+           background-image: url("imagens/nova-imagem-100.jpeg");
+           background-size: 300px 300px;
+        }
+    </style>
+</head>
+<body>
+    <div class="quadrado" id="f1">
+
+    </div>
+    <div class="quadrado" id="f2">
+
+    </div>
+    <div class="quadrado" id="f3">
+
+    </div>
+</body>
+</html>
