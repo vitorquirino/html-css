@@ -40,6 +40,10 @@ body{
     text-decoration: underline;
 }
 
+a:active{
+    color: grey;
+}
+
 .conteudo {
     margin-bottom: 48px;
     border-top: 0.4px solid #fff2e742;
