@@ -1,0 +1,22 @@
+
+
+@import url('https://fonts.googleapis.com/css2? family= Permanent+Marker & display=swap');
+
+:root {
+    --fonte1:'Marcador Permanente', 'cursiva';
+}
+
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+h1 {
+    font-family: var(--fonte1);
+    text-align: center;
+    background-color: black;
+    color: white;
+    padding: 20px;
+    margin: 10px;
+    
+}
