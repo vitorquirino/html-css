@@ -25,12 +25,13 @@ header > p {
 }
 
 a{
-    color: white;
+    color: rgb(255, 255, 255);
     text-decoration: none;
     font-weight: bolder;
 }
 
 main{
+    min-height: 100vh;
     font-family: var(--fonte1);
    
 }
@@ -45,13 +46,17 @@ main{
     margin: 0 auto;
     
 
-    background-color: rgb(100, 98, 99);
     color: rgb(248, 247, 247);
     font-size: 1.5em;
     
 
     height: 100vh;
     background-attachment: fixed;
+}
+
+section.imagem > p {
+    background-color: rgba(0, 0, 0, 0.308);
+    width: 400px;
 }
 
 section#img-1 {
@@ -73,13 +78,15 @@ a:hover{
 }
 
 footer{
-    background-color: black;
+    background-color: rgb(0, 0, 0);
     color: white;
     text-align: center;
+    padding-top: 10px;
 }
 
 footer > p {
     font-size: 1.2em;
+    padding-bottom: 15px;
 }
 
 footer > a {
