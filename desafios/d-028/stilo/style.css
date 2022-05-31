@@ -23,12 +23,12 @@ header{
 header > h1 {
      font-variant: small-caps;
      font-family: var(--fonte1);
-     font-size: 3em;
+     font-size: 10vw;
 }
 
 header > p {
      font-family: var(--fonte1);
-     font-size: 19px;
+     font-size: 1.5em;
 }
 
 .link1 {
@@ -43,7 +43,8 @@ a:hover {
 
 .corpo {
     font-family: var(--fonte2);
-    font-size: 1.6em;
+    font-size: 1.7em;
+    
 }
 
 section{
@@ -63,6 +64,8 @@ section{
 }
 
 .imagem > p {
+    display: inline-block;
+    padding: 5px;
     width: 350px;
     background-color: rgba(0, 0, 0, 0.222);
 }
