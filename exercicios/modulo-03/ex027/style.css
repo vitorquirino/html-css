@@ -1,0 +1,35 @@
+@charset "UTF-8";
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+.conteiner {
+    display: flex;
+    background-color: rgb(244, 206, 159);
+    width: 500px;
+   margin: 20px;
+   padding: 10px;
+}
+
+.bloco-1 {
+    padding: 20px;
+    width: 15px;
+    background-color: rgba(97, 135, 232, 0.765);
+    border-radius: 5px;
+}
+
+.bloco-2 {
+    padding: 20px;
+    width: 15px;
+    background-color: rgba(137, 43, 226, 0.802);
+    border-radius: 5px;
+}
+
+.bloco-3 {
+    padding: 20px;
+    width: 15px;
+    background-color: rgba(157, 238, 151, 0.839);
+    border-radius: 5px;
+}
