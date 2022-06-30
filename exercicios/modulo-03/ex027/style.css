@@ -24,7 +24,7 @@ body {
     gap: 10px 20px ;
     row-gap: 20px;
     column-gap: 30px;
-    background-color: rgba(195, 246, 53, 0.661);
+    background-color: rgba(246, 232, 127, 0.719);
     
     width: 700px;
     height: 300px;
@@ -37,6 +37,7 @@ body {
     width: 10px;
     background-color: rgba(97, 135, 232, 0.64);
     border-radius: 10px;
+    order: 1;
 }
 
 .bloco-2 {
@@ -44,6 +45,8 @@ body {
     width: 10px;
     background-color: rgba(137, 43, 226, 0.644);
     border-radius: 10px;
+    order: 1;
+    
 }
 
 .bloco-3 {
@@ -51,4 +54,6 @@ body {
     width: 10px;
     background-color: rgba(157, 238, 151, 0.664);
     border-radius: 10px;
+    order: -1;
+    
 }
