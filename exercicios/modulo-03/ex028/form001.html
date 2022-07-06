@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>formulario</title>
+    <style>
+        *{
+            font-family: Arial, Helvetica, sans-serif;
+            
+        }
+
+        .conteiner {
+           background-color: rgb(255, 228, 195);
+           display: flex;
+           justify-content: center;
+           align-items: center;
+           flex-direction: column;
+           height: 100vh;
+           background-image: url(../ex028/imagem-nova.png);
+           background-position: center ;
+           background-attachment: fixed;
+           background-size: cover;
+        }
+
+        .nome {
+            color: white;
+            
+        }
+
+        .sobrenome {
+            color: white;
+        }
+    </style>
+</head>
+<body>
+    
+    <form class="conteiner">
+        <p class="nome">nome: <input type="text" name="nome" id="nome"></p>
+        <p class="sobrenome">sobrenome: <input type="text" name="sobrenome" id="sobrenome"></p> 
+        <p><input type="submit" value="enviar"></p>
+    </form>
+</body>
+</html>
