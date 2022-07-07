@@ -18,26 +18,30 @@
            align-items: center;
            flex-direction: column;
            height: 100vh;
-           background-image: url(../ex028/imagens/imagem-nova.png);
+           background-image: url(imagens/imagem-nova.png);
            background-position: center ;
            background-attachment: fixed;
            background-size: cover;
         }
 
         .nome {
-            color: white;
+            color: rgb(0, 0, 0);
             
         }
 
         .sobrenome {
-            color: white;
+            color: rgb(0, 0, 0);
         }
     </style>
 </head>
 <body>
-    <form autocomplete="off" class="conteiner">
-        <p class="nome">nome: <input type="text" name="nome" id="nome"></p>
-        <p class="sobrenome">sobrenome: <input type="text" name="sobrenome" id="sobrenome"></p> 
+    <form action="cadastro.php"  autocomplete="off" method="post" class="conteiner">
+        <p class="nome">
+            <label for="inome">nome:</label> <input type="text" name="nome" id="inome">
+        </p>
+        <p class="sobrenome">
+            <label for="isobrenome">sobrenome:</label> <input type="text" name="sobrenome" id="isobrenome">
+        </p> 
         <p><input type="submit" value="enviar"></p>
     </form>
 </body>
