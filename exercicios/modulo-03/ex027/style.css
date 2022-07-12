@@ -16,46 +16,75 @@ body {
 }
 
 .conteiner {
-    background-color: bisque;
     width: 700px;
-    height: 500px;
-    padding: 15px;
     display: flex;
+    flex-direction: row;
     justify-content: center;
     align-items: center;
-    flex-wrap: wrap;
+    flex-wrap: nowrap;
     align-content: center;
     column-gap: 20px;
     row-gap: 20px;
     
-    
+    background-color: bisque;
+    height: 500px;
+    padding: 16px;
    
 }
 
 .bloco-1 {
-    
-    background-color: rgba(0, 255, 255, 0.349);
-    width:30px;
-    height: 25px ;
-    border-radius: 5px;
-    padding: 6px;
     text-align: center;
+    order:0;
+    flex-grow: 0;
+    flex-shrink: 1;
+    flex-basis: auto;
+    align-self: flex-start;
+    
+
+    background-color: rgba(0, 255, 255, 0.349);
 }
 
 .bloco-2 {
-    background-color: rgba(255, 192, 203, 0.546);
-    width:30px;
-    height: 25px ;
-    border-radius: 5px;
-    padding: 6px;
     text-align: center;
+    order:0;
+    flex-grow: 0;
+    flex-shrink: 1;
+    flex-basis: auto;
+    align-self: center;
+    
+
+    background-color: rgba(255, 192, 203, 0.546);
 }
 
 .bloco-3 {
-    background-color: rgba(238, 130, 238, 0.579);
-    width:30px;
-    height: 25px ;
-    border-radius: 5px;
-    padding: 6px;
     text-align: center;
+    order: 0;
+    flex-grow: 0;
+    flex-shrink: 1;
+    flex-basis: auto;
+    align-self: flex-end;
+    
+
+    background-color: rgba(238, 130, 238, 0.579);
+}
+
+#n1{
+    border-radius: 10px;
+    font-size: 20px;
+    width: 40px ;
+    height: 40px ;
+}
+
+#n2{
+    border-radius: 10px;
+    font-size: 20px;
+    width: 40px ;
+    height: 40px ;
+}
+
+#n3{
+    border-radius: 10px;
+    font-size: 20px;
+    width: 40px ;
+    height: 40px ;
 }
