@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>formulário 4</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        fieldset{
+            padding: 60px;
+            width: 700px;
+            height: 300px;
+            background-color: rgb(188, 192, 186);
+            color: rgb(0, 0, 0);
+            font-weight: bolder;
+         }
+
+        .conteiner{
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            align-items: center;
+            gap: 20px;
+        }
+    </style>
+</head>
+<body>
+    <h1>exemplos de formulário!</h1>
+    <fieldset>
+        <legend>dados pessoais!</legend>
+        
+        <form class="conteiner" action="cadastro.php" method="get" autocomplete="on">
+            
+
+            <div>
+                <label for="imail">E-mail:</label>
+                <input type="email" name="mail" id="imail" required autocomplete="on">
+            </div>
+            <div>
+                <label for="itel">telefone:</label>
+                <input type="tel" name="telefone" id="itel" autocomplete="tel"  required pattern="^\(\d{2}\)\d{5,5}-\d{4}$">
+            </div>
+            <div>
+                <input type="submit" value="enviar">
+                <input type="reset" value="limpar">
+            </div>
+        </form>
+    </fieldset>
+</body>
+</html>
