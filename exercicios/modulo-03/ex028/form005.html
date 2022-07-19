@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>formulario 5</title>
+    <style>
+        *{
+        padding: 0;
+        margin: 0;
+        font-family: Arial, Helvetica, sans-serif;
+        }
+
+        h1{
+            text-align: center;
+        }
+
+        .sex{
+            padding: 50px;
+            margin: 30px;
+            width: 500px;
+            height: 200px;
+        }
+
+        .esp{
+            padding: 50px;
+            margin: 30px;
+            width: 500px;
+            height: 200px;
+        }
+
+        .conteiner{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+    </style>
+</head>
+<body>
+    <h1>exemplode formulario</h1>
+    <form class="conteiner" action="cadastro.php" method="post" autocomplete="on">
+        <fieldset class="sex">
+            <legend>SEXO</legend>
+            <input type="radio" name="sexo" id="iemas" checked value="M"><label for="iemas">masculino</label> <br>
+            <input type="radio" name="sexo" id="iefem" value="F"><label for="iefem">feminino</label> <br>
+        </fieldset>
+
+        <fieldset class="esp">
+            <legend>ESPORTE FAVORITO</legend>
+            <input type="checkbox" name="efut" id="iefut" checked> <label for="iefut">futebol</label> <br>
+            <input type="checkbox" name="ebas" id="iebas"><label for="iebas"> basquete</label> <br>
+            <input type="checkbox" name="evol" id="ievol"> <label for="ievol">volei</label> <br>
+            <input type="checkbox" name="enat" id="ienat"> <label for="ienat">natação</label> <br>
+            <input type="checkbox" name="eten" id="ieten"> <label for="ieten">tenis</label>
+        </fieldset>
+
+        <p>
+            <input type="submit" value="enviar">
+            <input type="reset" value="limpar">
+        </p>
+    </form>
+</body>
+</html>
